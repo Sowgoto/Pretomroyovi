@@ -9,10 +9,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$from = stripslashes($_POST['name']) . "<" . stripslashes($_POST['email']) . ">";
 
 	// Recipient Email Address 
-	$to = 'marveltheme@gmail.com';
+	$to = 'raha.sowgoto14@gmail.com';
 
 	// Email Subject 
-	$emailSubject = 'New Message from Folio Contact Form';
+	$emailSubject = 'New Message from Website Form';
 
 	// Email Header 
 	$headers  = 'MIME-Version: 1.0' . "\r\n"
